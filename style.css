@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #1f1f1f;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    color: #6c63ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #6c63ff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #3f3d56, #121212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6c63ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #3f3d56;
+  }
+  
+  /* Sections */
+  section {
+    padding: 50px 20px;
+  }
+  
+  .features, .contact {
+    background: #1f1f1f;
+  }
+  
+  .features h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature {
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(33% - 20px);
+  }
+  
+  .demo p {
+    text-align: center;
+  }
+  
+  button, input, textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button {
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #3f3d56;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #121212;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+  

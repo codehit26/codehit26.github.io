@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audiolyt - The Future of Audio Analysis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Audiolyt</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to Audiolyt</h1>
+      <p>Revolutionizing Audio Classification with AI</p>
+      <a href="#demo" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Audiolyt</h2>
+      <p>
+        Audiolyt leverages cutting-edge AI to detect and classify real, synthetic, and auto-tuned audio. Designed to bridge 
+        the gap between audio engineering and artificial intelligence, Audiolyt is an essential tool in today’s digital age.
+      </p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <h3>AI-Powered</h3>
+          <p>Detects audio manipulation with precision.</p>
+        </div>
+        <div class="feature">
+          <h3>Interactive</h3>
+          <p>Simple and intuitive interface for users of all levels.</p>
+        </div>
+        <div class="feature">
+          <h3>Scalable</h3>
+          <p>Built to handle datasets of all sizes efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Section -->
+  <section id="demo" class="demo">
+    <div class="container">
+      <h2>Live Demo</h2>
+      <p>Upload an audio file and see Audiolyt in action:</p>
+      <input type="file" id="audioInput" accept="audio/*" />
+      <button onclick="classifyAudio()">Classify Audio</button>
+      <div id="classificationResult"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out to the Audiolyt team:</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Audiolyt Team. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
